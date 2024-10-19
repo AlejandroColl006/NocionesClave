@@ -3,7 +3,7 @@ project(3entorno_de_desarrollo_y_archivo_cmakelists)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(3entorno_de_desarrollo_y_archivo_cmakelists main.cpp)
+add_executable(3entorno_de_desarrollo_y_archivo_cmakelists src/main.cpp)
 
 include(FetchContent)
 FetchContent_Declare(
