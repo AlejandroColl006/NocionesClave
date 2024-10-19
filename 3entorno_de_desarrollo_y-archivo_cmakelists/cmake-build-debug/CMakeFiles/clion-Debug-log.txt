@@ -1,0 +1,8 @@
+C:\Users\Alex\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/Alex/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S "D:\Alex\Escritorio\Universidad\Primer Año\Programación - Por clases\Clase con Ruben\Trabajo de Nociones Clave\3entorno_de_desarrollo_y-archivo_cmakelists" -B "D:\Alex\Escritorio\Universidad\Primer Año\Programación - Por clases\Clase con Ruben\Trabajo de Nociones Clave\3entorno_de_desarrollo_y-archivo_cmakelists\cmake-build-debug"
+-- Version: 7.1.3
+-- Build type: Debug
+-- CXX_STANDARD: 20
+-- Required features: cxx_variadic_templates
+-- Configuring done (1.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: D:/Alex/Escritorio/Universidad/Primer Año/Programación - Por clases/Clase con Ruben/Trabajo de Nociones Clave/3entorno_de_desarrollo_y-archivo_cmakelists/cmake-build-debug

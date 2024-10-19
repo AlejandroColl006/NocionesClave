@@ -1,0 +1,37 @@
+# ninja log v6
+2	105	7510560327034757	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-mkdir	c3c2d576614fef1d
+673	772	7510562228783419	D:/Alex/Escritorio/Universidad/Primer Año/Programación - Por clases/Clase con Ruben/Trabajo de Nociones Clave/3entorno_de_desarrollo_y-archivo_cmakelists/cmake-build-debug/_deps/fmt-subbuild/CMakeFiles/fmt-populate-complete	d7f5a3ff1185b50c
+235	337	7510562224420922	D:/Alex/Escritorio/Universidad/Primer Año/Programación - Por clases/Clase con Ruben/Trabajo de Nociones Clave/3entorno_de_desarrollo_y-archivo_cmakelists/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-patch	141ff6d3b51fe7a0
+2	105	7510560327034757	D:/Alex/Escritorio/Universidad/Primer Año/Programación - Por clases/Clase con Ruben/Trabajo de Nociones Clave/3entorno_de_desarrollo_y-archivo_cmakelists/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-mkdir	c3c2d576614fef1d
+105	7505	7510560401026584	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-download	c327400da47da31a
+21	235	7510562221324992	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-update	dde16e558008abb5
+235	337	7510562224420922	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-patch	141ff6d3b51fe7a0
+105	7505	7510560401026584	D:/Alex/Escritorio/Universidad/Primer Año/Programación - Por clases/Clase con Ruben/Trabajo de Nociones Clave/3entorno_de_desarrollo_y-archivo_cmakelists/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-download	c327400da47da31a
+21	235	7510562221324992	D:/Alex/Escritorio/Universidad/Primer Año/Programación - Por clases/Clase con Ruben/Trabajo de Nociones Clave/3entorno_de_desarrollo_y-archivo_cmakelists/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-update	dde16e558008abb5
+337	421	7510562225259805	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-configure	93ef9591a555b2e3
+337	421	7510562225259805	D:/Alex/Escritorio/Universidad/Primer Año/Programación - Por clases/Clase con Ruben/Trabajo de Nociones Clave/3entorno_de_desarrollo_y-archivo_cmakelists/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-configure	93ef9591a555b2e3
+421	504	7510562226084372	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-build	a4a643b809be543
+421	504	7510562226084372	D:/Alex/Escritorio/Universidad/Primer Año/Programación - Por clases/Clase con Ruben/Trabajo de Nociones Clave/3entorno_de_desarrollo_y-archivo_cmakelists/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-build	a4a643b809be543
+504	588	7510562226903522	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-install	b471477a25e2ec00
+504	588	7510562226903522	D:/Alex/Escritorio/Universidad/Primer Año/Programación - Por clases/Clase con Ruben/Trabajo de Nociones Clave/3entorno_de_desarrollo_y-archivo_cmakelists/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-install	b471477a25e2ec00
+588	673	7510562227787698	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-test	c6c295b4ccdaeaa2
+588	673	7510562227787698	D:/Alex/Escritorio/Universidad/Primer Año/Programación - Por clases/Clase con Ruben/Trabajo de Nociones Clave/3entorno_de_desarrollo_y-archivo_cmakelists/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-test	c6c295b4ccdaeaa2
+673	772	7510562228783419	CMakeFiles/fmt-populate-complete	d7f5a3ff1185b50c
+673	772	7510562228783419	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-done	d7f5a3ff1185b50c
+673	772	7510562228783419	D:/Alex/Escritorio/Universidad/Primer Año/Programación - Por clases/Clase con Ruben/Trabajo de Nociones Clave/3entorno_de_desarrollo_y-archivo_cmakelists/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-done	d7f5a3ff1185b50c
+19	366	7510574012843762	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-update	dde16e558008abb5
+19	366	7510574012843762	D:/Alex/Escritorio/Universidad/Primer Año/Programación - Por clases/Clase con Ruben/Trabajo de Nociones Clave/3entorno_de_desarrollo_y-archivo_cmakelists/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-update	dde16e558008abb5
+366	529	7510574017794433	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-patch	141ff6d3b51fe7a0
+366	529	7510574017794433	D:/Alex/Escritorio/Universidad/Primer Año/Programación - Por clases/Clase con Ruben/Trabajo de Nociones Clave/3entorno_de_desarrollo_y-archivo_cmakelists/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-patch	141ff6d3b51fe7a0
+529	606	7510574018652107	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-configure	93ef9591a555b2e3
+529	606	7510574018652107	D:/Alex/Escritorio/Universidad/Primer Año/Programación - Por clases/Clase con Ruben/Trabajo de Nociones Clave/3entorno_de_desarrollo_y-archivo_cmakelists/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-configure	93ef9591a555b2e3
+606	688	7510574019465784	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-build	a4a643b809be543
+606	688	7510574019465784	D:/Alex/Escritorio/Universidad/Primer Año/Programación - Por clases/Clase con Ruben/Trabajo de Nociones Clave/3entorno_de_desarrollo_y-archivo_cmakelists/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-build	a4a643b809be543
+689	758	7510574020167215	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-install	b471477a25e2ec00
+689	758	7510574020167215	D:/Alex/Escritorio/Universidad/Primer Año/Programación - Por clases/Clase con Ruben/Trabajo de Nociones Clave/3entorno_de_desarrollo_y-archivo_cmakelists/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-install	b471477a25e2ec00
+758	829	7510574020888127	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-test	c6c295b4ccdaeaa2
+758	829	7510574020888127	D:/Alex/Escritorio/Universidad/Primer Año/Programación - Por clases/Clase con Ruben/Trabajo de Nociones Clave/3entorno_de_desarrollo_y-archivo_cmakelists/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-test	c6c295b4ccdaeaa2
+829	980	7510574022359551	CMakeFiles/fmt-populate-complete	d7f5a3ff1185b50c
+829	980	7510574022359551	fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-done	d7f5a3ff1185b50c
+829	980	7510574022359551	D:/Alex/Escritorio/Universidad/Primer Año/Programación - Por clases/Clase con Ruben/Trabajo de Nociones Clave/3entorno_de_desarrollo_y-archivo_cmakelists/cmake-build-debug/_deps/fmt-subbuild/CMakeFiles/fmt-populate-complete	d7f5a3ff1185b50c
+829	980	7510574022359551	D:/Alex/Escritorio/Universidad/Primer Año/Programación - Por clases/Clase con Ruben/Trabajo de Nociones Clave/3entorno_de_desarrollo_y-archivo_cmakelists/cmake-build-debug/_deps/fmt-subbuild/fmt-populate-prefix/src/fmt-populate-stamp/fmt-populate-done	d7f5a3ff1185b50c
