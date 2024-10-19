@@ -1,7 +1,14 @@
-#include <iostream>
+#include "Estudiante.h"
+
+Estudiante estudiante;
 
 int main() {
-    std::cout << "Hola Mundo" << std::endl;
+    estudiante.setNombre("Vicente");
+    estudiante.setEdad(23);
+    estudiante.setGenero("Hombre");
+    estudiante.setGrado("Informatica");
+
+    estudiante.mostrarDetalles();
 
     return 0;
 }

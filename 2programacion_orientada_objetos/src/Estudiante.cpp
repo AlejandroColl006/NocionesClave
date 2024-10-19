@@ -2,7 +2,7 @@
 // Created by Alex on 19/10/2024.
 //
 
-#include "2_programacion_orientada_a_objetos/Estudiante.h"
+#include "Estudiante.h"
 #include <iostream>
 
 void Estudiante::setGrado(const std::string &grado) {

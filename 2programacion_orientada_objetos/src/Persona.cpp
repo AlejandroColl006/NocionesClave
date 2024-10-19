@@ -2,7 +2,7 @@
 // Created by Alex on 19/10/2024.
 //
 
-#include "2_programacion_orientada_a_objetos/Persona.h"
+#include "Persona.h"
 void Persona::setNombre(const std::string &nombre) {
     this->nombre = nombre;
 }

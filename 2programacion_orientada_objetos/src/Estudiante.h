@@ -6,7 +6,7 @@
 #define ESTUDIANTE_H
 
 #include <string>
-#include "2_programacion_orientada_a_objetos/Persona.h"
+#include "Persona.h"
 
 
 class Estudiante : public Persona {
