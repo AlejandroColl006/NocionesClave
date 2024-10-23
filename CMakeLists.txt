@@ -8,7 +8,8 @@ add_executable(nocionesClaves src/main.cpp
         src/classes/Estudiante.cpp
         src/classes/Persona.cpp
         src/main.cpp
-        include/funciones.h)
+        include/funciones.h
+        include/matematicas.h)
 
 # Bajar y usar librería FMT --- PUNTO 3
 

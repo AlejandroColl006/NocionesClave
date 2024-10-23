@@ -2,6 +2,7 @@
 #include <fmt/core.h>
 
 #include "funciones.h"
+#include "matematicas.h"
 
 #include "classes/Estudiante.h"
 
@@ -9,7 +10,7 @@
 
 int g = 20;
 
-int suma(int a, int b) {
+int sumaSimple(int a, int b) {
     return a + b;
 }
 
@@ -17,7 +18,7 @@ void muestraHolaMundoYSuma() {
     std::cout << "Hola Mundo" << std::endl;
 
     std::cout << "Valor de la g antes de la funcion suma: " << g << std::endl;
-    std::cout << "La suma es: " << suma(5, g) << std::endl;
+    std::cout << "La suma es: " << sumaSimple(5, g) << std::endl;
     std::cout << "Valor de la g despues de la funcion suma: " << g << std::endl;
 }
 
@@ -42,9 +43,17 @@ void muestraHolaClionUsandoFmt() {
 
 // ----------- PUNTO 4 ---------------
 
-void muestraHolaMundoLibreria() {
+void muestraHolaMundoLibreriaDinamica() {
     //Esta función está en "funciones.h"
     muestraHolaMundo();
+}
+
+void muestraRestaLibreriaEstatica() {
+    //Esta función está en "matematicas.h"
+    int a = 25;
+    int b = 2;
+    int resultado = resta(a, b);
+    std::cout << "El resultado de restar " << a << "-" << b << "=" << resultado << std::endl;
 }
 
 // ----------- INICIO DEL PROGRAMA ---------------
@@ -60,7 +69,8 @@ int main() {
     muestraHolaClionUsandoFmt();
 
     std::cout << "-------------  Punto 4 -------------" << std::endl;
-    muestraHolaMundoLibreria();
+    muestraHolaMundoLibreriaDinamica();
+    muestraRestaLibreriaEstatica();
 
     return 0;
 }
