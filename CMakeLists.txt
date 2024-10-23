@@ -10,7 +10,7 @@ add_executable(nocionesClaves src/main.cpp
         src/classes/Persona.cpp
         src/main.cpp)
 
-# Bajar y usar librería FMT --- USAREMOS EN EL PUNTO 3
+# Bajar y usar librería FMT --- PUNTO 3
 
 include(FetchContent)
 FetchContent_Declare(
@@ -21,3 +21,7 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(fmt)
 target_link_libraries(nocionesClaves PRIVATE fmt::fmt)
+
+# Usar librerías dinámicas y estáticas --- PUNTO 4
+
+#target_link_libraries(nocionesClaves lib/libNocionesClaveLibDinamica.dll)
