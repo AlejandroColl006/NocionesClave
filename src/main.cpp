@@ -37,7 +37,7 @@ void muestraEstudiante() {
 // ----------- PUNTO 3 ---------------
 
 void muestraHolaClionUsandoFmt() {
-    fmt::print("Hola, {}!", "CLion");
+    fmt::print("Hola, {}!\n", "CLion");
 }
 
 // ----------- PUNTO 4 ---------------
