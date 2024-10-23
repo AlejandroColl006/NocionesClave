@@ -1,6 +1,8 @@
 #include <iostream>
 #include <fmt/core.h>
 
+#include "funciones.h"
+
 #include "classes/Estudiante.h"
 
 // ----------- PUNTO 1 ---------------
@@ -11,7 +13,7 @@ int suma(int a, int b) {
     return a + b;
 }
 
-void muestraHolaMundo() {
+void muestraHolaMundoYSuma() {
     std::cout << "Hola Mundo" << std::endl;
 
     std::cout << "Valor de la g antes de la funcion suma: " << g << std::endl;
@@ -38,17 +40,27 @@ void muestraHolaClionUsandoFmt() {
     fmt::print("Hola, {}!", "CLion");
 }
 
+// ----------- PUNTO 4 ---------------
+
+void muestraHolaMundoLibreria() {
+    //Esta función está en "funciones.h"
+    muestraHolaMundo();
+}
+
 // ----------- INICIO DEL PROGRAMA ---------------
 
 int main() {
-    //Punto 1
     std::cout << "------------- Punto 1 -------------" << std::endl;
-    muestraHolaMundo();
-    //Punto 2
+    muestraHolaMundoYSuma();
+
     std::cout << "------------- Punto 2 -------------" << std::endl;
     muestraEstudiante();
-    //Punto 3
+
     std::cout << "-------------  Punto 3 -------------" << std::endl;
     muestraHolaClionUsandoFmt();
+
+    std::cout << "-------------  Punto 4 -------------" << std::endl;
+    muestraHolaMundoLibreria();
+
     return 0;
 }

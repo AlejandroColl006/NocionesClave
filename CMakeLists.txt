@@ -3,12 +3,12 @@ project(nocionesClaves)
 
 set(CMAKE_CXX_STANDARD 20)
 
-
 #Añadir el código que usaremos
 add_executable(nocionesClaves src/main.cpp
         src/classes/Estudiante.cpp
         src/classes/Persona.cpp
-        src/main.cpp)
+        src/main.cpp
+        include/funciones.h)
 
 # Bajar y usar librería FMT --- PUNTO 3
 
@@ -20,8 +20,17 @@ FetchContent_Declare(
 )
 
 FetchContent_MakeAvailable(fmt)
-target_link_libraries(nocionesClaves PRIVATE fmt::fmt)
 
-# Usar librerías dinámicas y estáticas --- PUNTO 4
+include_directories(${PROJECT_SOURCE_DIR}/include)
 
-#target_link_libraries(nocionesClaves lib/libNocionesClaveLibDinamica.dll)
+target_link_libraries(nocionesClaves
+        # librería FMT --- PUNTO 3
+        PRIVATE fmt::fmt
+        # librerías dinámicas y estáticas --- PUNTO 4
+        lib/libNocionesClaveLibDinamica.dll.a
+        lib/libNocionesClaveLibEstatica.a)
+
+
+add_custom_command(TARGET nocionesClaves POST_BUILD
+        COMMAND ${CMAKE_COMMAND} -E copy_if_different
+        ${PROJECT_SOURCE_DIR}/lib/NocionesClaveLibDinamica.dll $<TARGET_FILE_DIR:nocionesClaves>)
