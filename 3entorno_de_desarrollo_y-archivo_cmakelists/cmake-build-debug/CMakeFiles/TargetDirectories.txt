@@ -1,6 +1,0 @@
-D:/Alex/Escritorio/Universidad/Primer Año/Programación - Por clases/Clase con Ruben/Trabajo de Nociones Clave/3entorno_de_desarrollo_y-archivo_cmakelists/cmake-build-debug/CMakeFiles/3entorno_de_desarrollo_y_archivo_cmakelists.dir
-D:/Alex/Escritorio/Universidad/Primer Año/Programación - Por clases/Clase con Ruben/Trabajo de Nociones Clave/3entorno_de_desarrollo_y-archivo_cmakelists/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Alex/Escritorio/Universidad/Primer Año/Programación - Por clases/Clase con Ruben/Trabajo de Nociones Clave/3entorno_de_desarrollo_y-archivo_cmakelists/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-D:/Alex/Escritorio/Universidad/Primer Año/Programación - Por clases/Clase con Ruben/Trabajo de Nociones Clave/3entorno_de_desarrollo_y-archivo_cmakelists/cmake-build-debug/_deps/fmt-build/CMakeFiles/fmt.dir
-D:/Alex/Escritorio/Universidad/Primer Año/Programación - Por clases/Clase con Ruben/Trabajo de Nociones Clave/3entorno_de_desarrollo_y-archivo_cmakelists/cmake-build-debug/_deps/fmt-build/CMakeFiles/edit_cache.dir
-D:/Alex/Escritorio/Universidad/Primer Año/Programación - Por clases/Clase con Ruben/Trabajo de Nociones Clave/3entorno_de_desarrollo_y-archivo_cmakelists/cmake-build-debug/_deps/fmt-build/CMakeFiles/rebuild_cache.dir
