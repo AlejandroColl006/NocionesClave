@@ -5,16 +5,17 @@
 
 // ----------- PUNTO 1 ---------------
 
-int g =20;
+int g = 20;
+
 int suma(int a, int b) {
-    return a+b;
+    return a + b;
 }
 
 void muestraHolaMundo() {
     std::cout << "Hola Mundo" << std::endl;
 
     std::cout << "Valor de la g antes de la funcion suma: " << g << std::endl;
-    std::cout << "La suma es: " << suma (5,g) <<std::endl;
+    std::cout << "La suma es: " << suma(5, g) << std::endl;
     std::cout << "Valor de la g despues de la funcion suma: " << g << std::endl;
 }
 
@@ -33,7 +34,7 @@ void muestraEstudiante() {
 
 // ----------- PUNTO 3 ---------------
 
-void muestraHolaClionUsandoFmt(){
+void muestraHolaClionUsandoFmt() {
     fmt::print("Hola, {}!", "CLion");
 }
 
@@ -41,9 +42,13 @@ void muestraHolaClionUsandoFmt(){
 
 int main() {
     //Punto 1
+    std::cout << "------------- Punto 1 -------------" << std::endl;
     muestraHolaMundo();
     //Punto 2
+    std::cout << "------------- Punto 2 -------------" << std::endl;
     muestraEstudiante();
     //Punto 3
+    std::cout << "-------------  Punto 3 -------------" << std::endl;
+    muestraHolaClionUsandoFmt();
     return 0;
 }
