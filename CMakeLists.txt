@@ -7,7 +7,8 @@ set(CMAKE_CXX_STANDARD 20)
 #Añadir el código que usaremos
 add_executable(nocionesClaves src/main.cpp
         src/classes/Estudiante.cpp
-        src/classes/Persona.cpp)
+        src/classes/Persona.cpp
+        src/main.cpp)
 
 # Bajar y usar librería FMT --- USAREMOS EN EL PUNTO 3
 
