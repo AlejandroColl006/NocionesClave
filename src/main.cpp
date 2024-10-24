@@ -13,15 +13,16 @@
 int g = 20;
 
 int sumaSimple(int a, int b) {
+    std::cout << "Valor de la g dentro de la funcion sumaSimple: " << g << std::endl;
     return a + b;
 }
 
 void muestraHolaMundoYSuma() {
     std::cout << "Hola Mundo" << std::endl;
 
-    std::cout << "Valor de la g antes de la función suma: " << g << std::endl;
+    std::cout << "Valor de la g antes de la funcion sumaSimple: " << g << std::endl;
     std::cout << "La suma es: " << sumaSimple(5, g) << std::endl;
-    std::cout << "Valor de la g después de la función suma: " << g << std::endl;
+    std::cout << "Valor de la g despues de la funcion sumaSimple: " << g << std::endl;
 }
 
 // ----------- PUNTO 2 ---------------
