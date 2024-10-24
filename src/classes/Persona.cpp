@@ -3,6 +3,7 @@
 //
 
 #include "Persona.h"
+
 void Persona::setNombre(const std::string &nombre) {
     this->nombre = nombre;
 }

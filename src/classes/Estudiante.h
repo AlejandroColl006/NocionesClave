@@ -12,14 +12,13 @@
 class Estudiante : public Persona {
     std::string grado;
 
-
 public:
     void setGrado(const std::string &grado);
+
     std::string getGrado();
+
     void mostrarDetalles();
 };
-
-
 
 
 #endif //ESTUDIANTE_H
